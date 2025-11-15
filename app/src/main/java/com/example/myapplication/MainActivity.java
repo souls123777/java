@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.content.Intent;
 import android.widget.EditText;
 
+import com.example.myapplication.ui.profile.ProfileActivity;
+
 // Главный экран
 public class MainActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
@@ -24,10 +26,14 @@ public class MainActivity extends AppCompatActivity {
         Button buttonProfile = findViewById(R.id.buttonProfile);
 
         buttonProfile.setOnClickListener(v -> {
-            String name = editName.getText().toString().trim();
-            Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-            intent.putExtra("USER_NAME", name);
-            startActivity(intent);
+            String username = editName.getText().toString().trim();
+            if (!username.isEmpty()) {
+                Intent intent = new Intent(this, com.example.myapplication.ui.profile.ProfileActivity.class);
+                intent.putExtra("USERNAME", username);
+                startActivity(intent);
+            } else {
+                textView.setText("Введите GitHub ник!");
+            }
         });
     }
 }

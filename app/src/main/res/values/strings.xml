@@ -6,4 +6,11 @@
     <string name="set_name">Введите имя</string>
     <string name="default_name">Имя</string>
     <string name="name_transport">USER_NAME</string>
+    <string name="loading">Загрузка…</string>
+    <string name="no_bio">Био не указано</string>
+    <string name="repos_placeholder">Репозитории: —</string>
+    <string name="followers_placeholder">Подписчики: —</string>
+    <string name="last_commit_placeholder">Последний коммит: —</string>
+    <string name="avatar">Аватар пользователя</string>
+    <string name="back">Назад</string>
 </resources>
