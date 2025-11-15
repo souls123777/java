@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="profile_title">D.Dushenko\'s app! Health Check</string>
+    <string name="button_back">Назад</string>
+    <string name="open_profile">Открыть профиль</string>
+    <string name="set_name">Введите имя</string>
+    <string name="default_name">Имя</string>
+    <string name="name_transport">USER_NAME</string>
+</resources>
