@@ -13,4 +13,30 @@
     <string name="last_commit_placeholder">Последний коммит: —</string>
     <string name="avatar">Аватар пользователя</string>
     <string name="back">Назад</string>
+    <!-- API -->
+    <string name="github_api_base_url">https://api.github.com/</string>
+    <!-- Ошибки -->
+    <string name="error_username_missing">Ошибка: имя не передано</string>
+    <string name="error_user_not_found">Пользователь не найден</string>
+    <string name="error_network">Ошибка сети</string>
+    <string name="error_response">Ошибка ответа</string>
+    <string name="error_last_commit">Ошибка: %s</string>
+
+    <!-- UI: Профиль -->
+    <string name="label_repos">Репозитории: %d</string>
+    <string name="label_followers">Подписчики: %d</string>
+
+    <!-- Последний коммит -->
+    <string name="push_event_type">PushEvent</string>
+    <string name="unknown_repo">неизвестный репозиторий</string>
+    <string name="default_push_message">Пуш в репозиторий</string>
+    <string name="no_pushes_found">Пушей не найдено</string>
+
+    <!-- Формат даты -->
+    <string name="github_date_format_input">yyyy-MM-dd\'T\'HH:mm:ss\'Z\'</string>
+    <string name="github_date_format_output">dd MMM yyyy, HH:mm</string>
+
+    <!-- Шаблоны -->
+    <string name="last_commit_full">Последний пуш: %1$s\n%2$s\nв %3$s</string>
+    <string name="last_commit_simple">Пуш: %1$s (в %2$s)</string>
 </resources>
