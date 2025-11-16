@@ -20,7 +20,6 @@ public class GitHubCommit {
     public static class Author {
         public String name;
         public String email;
-        // date НЕТ в PushEvent!
     }
 
     public static class Repo {

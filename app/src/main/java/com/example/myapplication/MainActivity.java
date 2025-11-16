@@ -1,6 +1,5 @@
 package com.example.myapplication;
 
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,8 +7,6 @@ import android.widget.TextView;
 import android.widget.Button;
 import android.content.Intent;
 import android.widget.EditText;
-
-import com.example.myapplication.ui.profile.ProfileActivity;
 
 // Главный экран
 public class MainActivity extends AppCompatActivity {
